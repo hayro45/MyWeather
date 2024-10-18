@@ -59,18 +59,21 @@ Uygulama, **SQLite** kullanarak şehir bilgilerini saklar. Kullanıcıların ekl
 
 ## Ekran Görüntüleri
 - **Giriş Ekranı**: Kullanıcıdan konum izni talep edilen ekran.
-  - ![Giriş Ekranı](image1)
+  - ![girişekrani](https://github.com/user-attachments/assets/4036656b-2f82-4296-83d7-5ace18752ae3)
   
 - **Ana Sayfa**: Mevcut konum veya seçilen şehir ile hava durumu bilgileri gösterilen ekran.
-  - ![Ana Sayfa](image2)
+  - ![ikinci ekranlar](https://github.com/user-attachments/assets/298133e5-6e41-4120-911c-e45e4176f1e8)
 
 - **Haftalık Hava Durumu**: Kullanıcının seçtiği şehir için haftalık hava durumu tahminleri.
-  - ![Haftalık Hava Durumu](image3)
+  - ![üçüncü ekranlar](https://github.com/user-attachments/assets/efcff496-a0fd-4624-b537-551a828b26a5)
   
+- **Ayarlar**: Uygulamanın tema (Açık/Karanlık) ve Metrik(Celcius-Fahrenayt) ayarlarının yapıldığı ekran.
+  - ![ayarlar](https://github.com/user-attachments/assets/73c766c8-a286-4b96-91f7-5baae7198475)
+    
 - **Ayarlar**: Uygulamanın tema (Açık/Karanlık) ayarlarının yapıldığı ekran.
-  - ![Ayarlar](image4)
+  - ![ayarlar](https://github.com/user-attachments/assets/73c766c8-a286-4b96-91f7-5baae7198475)
 
 ## Kurulum
 1. **Projeyi klonlayın**:
    ```bash
-   git clone https://github.com/kullaniciAdiniz/hava-durumu-uygulamasi.git
+   git clone 
