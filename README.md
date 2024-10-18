@@ -74,7 +74,7 @@ Uygulama, **SQLite** kullanarak şehir bilgilerini saklar. Kullanıcıların ekl
   - ![ayarlar](https://github.com/user-attachments/assets/73c766c8-a286-4b96-91f7-5baae7198475)
     
 - **Ayarlar**: Uygulamanın tema (Açık/Karanlık) ayarlarının yapıldığı ekran.
-  - ![ayarlar](https://github.com/user-attachments/assets/73c766c8-a286-4b96-91f7-5baae7198475)
+  - ![açıkkapalıtemaekranlar](https://github.com/user-attachments/assets/086bd2ba-8960-482a-babf-0b60e3b933b4)
 
 ## Proje Yapısı
 
