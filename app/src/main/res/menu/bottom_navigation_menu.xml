@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+  <item
+      android:id="@+id/home_page"
+      android:icon="@drawable/baseline_home_24"
+      android:title="@string/text_label_1"/>
+  <item
+      android:id="@+id/weekly_page"
+      android:icon="@drawable/baseline_calendar_month_24"
+      android:title="@string/text_label_2"/>
+  <item
+      android:id="@+id/settings_page"
+      android:icon="@drawable/baseline_build_24"
+      android:title="@string/text_label_3"/>
+</menu>

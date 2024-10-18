@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <!-- Tıklama anında gösterilecek çizim -->
+        <shape android:shape="rectangle">
+            <solid android:color="#80FFFFFF"/> <!-- Tıklama anında rengi mavi yap -->
+            <!-- <size android:width="" android:height="50dp"/> Arka planın uzunluğu -->
+            <corners android:radius="10dp"/> <!-- Yuvarlak köşe yarıçapı -->
+        </shape>
+    </item>
+    <item>
+        <!-- Normal durumda gösterilecek çizim -->
+        <shape android:shape="rectangle">
+            <solid android:color="#00FFFFFF"/> <!-- Normal durumda rengi beyaz yap -->
+        </shape>
+    </item>
+</selector>

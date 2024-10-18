@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FE5722</color>
+    <color name="colorPrimaryVariant">#CD3606</color>
+    <color name="colorOnPrimary">@color/white</color>
+
+    <!-- Secondary brand color. -->
+    <color name="colorSecondary">#F9C05D</color>
+    <color name="colorSecondaryVariant">#CA8814</color>
+    <color name="colorOnSecondary">@color/black</color>
+
+    <color name="colorText">@color/black</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="colorTransparent">#80FFFFFF</color>
+
+
+</resources>

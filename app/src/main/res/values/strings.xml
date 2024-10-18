@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">MyWeather</string>
+
+    <string name="sehir_ismi">Sehir Ismi Girin</string>
+    <string name="btn_getir">Getir</string>
+    <string name="guncel_hava_durumu">Güncel Hava Durumu</string>
+
+
+    <string name="text_label_1">Bugün</string>
+    <string name="text_label_2">Haftalık</string>
+    <string name="text_label_3">Ayarlar</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment1">Hello Home fragment</string>
+    <string name="hello_blank_fragment2">Hello Weekly fragment</string>
+    <string name="hello_blank_fragment3">Hello Settings fragment</string>
+
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <!-- Weekley fragment strings -->
+    <string name="add_city" >Şehir eklemek için tıklayın</string>
+    <string name="ulke_kodu_girin_opsiyonel">Ulke Kodu Girin (Opsiyonel)</string>
+    <string name="refresh_button_content_desc">Refresh Button</string>
+    <string name="get_location">Get Location</string>
+    <string name="haftalik_ozet">Haftalık Özet</string>
+    <string name="karanl_k_tema">Karanlık Tema</string>
+    <string name="ayarlar_baslik">Ayarlar</string>
+    <string name="celsius_ayar">Celsius</string>
+    <string name="fahrenheit_ayar">Fahrenheit</string>
+    <string name="tema_ayar">Tema</string>
+    <string name="weather_icon_description">Weather icon</string>
+
+
+</resources>
