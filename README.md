@@ -9,7 +9,9 @@ Bu Android uygulaması, kullanıcılara anlık hava durumu bilgilerini sunar. Uy
 4. [İzinler](#izinler)
 5. [Veritabanı](#veritabanı)
 6. [Ekran Görüntüleri](#ekran-görüntüleri)
-7. [Kurulum](#kurulum)
+7. [Proje Yapısı](#proje-yapisi)
+8. [Bileşenler](#bilesenler)
+9. [Kurulum](#kurulum)
 
 ---
 
@@ -28,6 +30,7 @@ Bu uygulama, **OpenWeatherMap API** kullanarak hava durumu verilerini kullanıc�
 - **Java**: Ana programlama dili olarak.
 - **SQLite**: Şehir veritabanı için.
 - **OpenWeatherMap API**: Hava durumu verilerinin çekilmesi için.
+- **Volley**: Uygulamada ağ isteklerini yönetmek ve API'den veri çekmek için **Volley** kütüphanesi kullanılmıştır. Uygulama, hava durumu verilerini almak için `StringRequest` kullanarak OpenWeatherMap API'ye istek gönderir. Gelen yanıtlar JSON formatında ayrıştırılır ve RecyclerView içinde gösterilir. Ayrıca hava durumu simgeleri `ImageRequest` kullanılarak sunucudan alınır ve UI'da görsel olarak gösterilir.
 - **Android SDK 21 (Lollipop)** ve üzerinde çalışma.
 - **Geriye Uyumluluk**: Minimum SDK 21 ile çalışabilir, hedeflenen SDK 34'tür.
 - **Material Design**: Modern kullanıcı arayüzü ve deneyimi için.
@@ -72,6 +75,35 @@ Uygulama, **SQLite** kullanarak şehir bilgilerini saklar. Kullanıcıların ekl
     
 - **Ayarlar**: Uygulamanın tema (Açık/Karanlık) ayarlarının yapıldığı ekran.
   - ![ayarlar](https://github.com/user-attachments/assets/73c766c8-a286-4b96-91f7-5baae7198475)
+
+## Proje Yapısı
+
+Bu proje, bir Android uygulamasında Bottom Navigation kullanarak farklı fragmentlar arasında geçiş yapmayı yönetir. Aşağıda, uygulamanın temel bileşenleri ve yapılandırması açıklanmıştır.
+
+## Bileşenler
+
+- **MainActivity**: Uygulamanın ana aktivitesi, Bottom Navigation menüsünü içerir.
+- **Fragmentlar**: 
+  - **HomeFragment**: Ana ekran içeriğini gösterir.
+  - **SearchFragment**: Arama özelliklerini sunar.
+  - **ProfileFragment**: Kullanıcı profili bilgilerini içerir.
+
+## Bottom Navigation Yapısı
+
+- Bottom Navigation menüsü, kullanıcıların fragmentlar arasında kolayca geçiş yapmasını sağlar.
+- Kullanıcı, menüdeki simgelere tıklayarak ilgili fragmentı görüntüler.
+
+## Fragmentlar Arası Geçiş
+
+1. **HomeFragment'a Geçiş**:
+   - Kullanıcı, Bottom Navigation'da "Home" simgesine tıkladığında `HomeFragment` görüntülenir.
+   
+2. **SearchFragment'a Geçiş**:
+   - "Search" simgesine tıklandığında `SearchFragment` yüklenir.
+   
+3. **ProfileFragment'a Geçiş**:
+   - "Profile" simgesine tıkladığında `ProfileFragment` açılır.
+
 
 ## Kurulum
 1. **Projeyi klonlayın**:
